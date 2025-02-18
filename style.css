@@ -11,5 +11,28 @@ h1, h2 {
 
 img {
     float: left;
+    width: 100px;
     margin-right: 10px;
+}
+
+.left, .middle, .right {
+    float: left;
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a {
+    margin-left: 75px;
+    margin-right: 75px;
 }
